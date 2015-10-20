@@ -1,0 +1,19 @@
+header {
+  background-image: url(/img/index-header.jpg);
+}
+
+#inspire {
+  background-image: url(/img/index-inspire.jpg);
+}
+
+#support {
+  background-image: url(/img/index-support.jpg);
+}
+
+#meetup {
+  background-image: url(/img/index-meetup.jpg);
+}
+
+#contact {
+  background-image: url(/img/index-contact.jpg);
+}

@@ -263,11 +263,10 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 
-header {
+.cover-img {
   text-align: center;
   color: #fff;
   background-attachment: scroll;
-  background-image: url(../img/header-bg.jpg);
   background-position: center center;
   background-repeat: none;
   -webkit-background-size: cover;
@@ -347,16 +346,6 @@ section h3.section-subheading {
   }
 }
 
-.service-heading {
-  margin: 15px 0;
-  text-transform: none;
-}
-
-.team-member {
-  margin-bottom: 50px;
-  text-align: center;
-}
-
 .team-member img {
   margin: 0 auto;
   border: 7px solid #fff;
@@ -370,71 +359,6 @@ section h3.section-subheading {
 
 .team-member p {
   margin-top: 0;
-}
-
-section#contact {
-  background-color: #222;
-  background-image: url(../img/map-image.png);
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-section#contact .section-heading {
-  color: #fff;
-}
-
-section#contact .form-group {
-  margin-bottom: 25px;
-}
-
-section#contact .form-group input,
-section#contact .form-group textarea {
-  padding: 20px;
-}
-
-section#contact .form-group input.form-control {
-  height: auto;
-}
-
-section#contact .form-group textarea.form-control {
-  height: 236px;
-}
-
-section#contact .form-control:focus {
-  border-color: #fed136;
-  box-shadow: none;
-}
-
-section#contact::-webkit-input-placeholder {
-  text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 700;
-  color: #bbb;
-}
-
-section#contact:-moz-placeholder {
-  text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 700;
-  color: #bbb;
-}
-
-section#contact::-moz-placeholder {
-  text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 700;
-  color: #bbb;
-}
-
-section#contact:-ms-input-placeholder {
-  text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-weight: 700;
-  color: #bbb;
-}
-
-section#contact .text-danger {
-  color: #e74c3c;
 }
 
 footer {
@@ -487,82 +411,6 @@ ul.social-buttons li a:active {
 .btn.active,
 .btn:active:focus {
   outline: 0;
-}
-
-.portfolio-modal .modal-content {
-  padding: 100px 0;
-  min-height: 100%;
-  border: 0;
-  border-radius: 0;
-  text-align: center;
-  background-clip: border-box;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-
-.portfolio-modal .modal-content h2 {
-  margin-bottom: 15px;
-  font-size: 3em;
-}
-
-.portfolio-modal .modal-content p {
-  margin-bottom: 30px;
-}
-
-.portfolio-modal .modal-content p.item-intro {
-  margin: 20px 0 30px;
-  font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 16px;
-  font-style: italic;
-}
-
-.portfolio-modal .modal-content ul.list-inline {
-  margin-top: 0;
-  margin-bottom: 30px;
-}
-
-.portfolio-modal .modal-content img {
-  margin-bottom: 30px;
-}
-
-.portfolio-modal .close-modal {
-  position: absolute;
-  top: 25px;
-  right: 25px;
-  width: 75px;
-  height: 75px;
-  background-color: transparent;
-  cursor: pointer;
-}
-
-.portfolio-modal .close-modal:hover {
-  opacity: .3;
-}
-
-.portfolio-modal .close-modal .lr {
-  z-index: 1051;
-  width: 1px;
-  height: 75px;
-  margin-left: 35px;
-  background-color: #222;
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg);
-}
-
-.portfolio-modal .close-modal .lr .rl {
-  z-index: 1052;
-  width: 1px;
-  height: 75px;
-  background-color: #222;
-  -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
-}
-
-.portfolio-modal .modal-backdrop {
-  display: none;
-  opacity: 0;
 }
 
 ::-moz-selection {
