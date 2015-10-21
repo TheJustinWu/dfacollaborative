@@ -70,6 +70,33 @@ h6 {
   background-color: #222;
 }
 
+.btn {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border-radius: 0;
+  padding: 10px 20px;
+  color: #ff952e;
+  background-color: transparent;
+}
+
+.btn-default {
+  border-width: thick;
+  border-color: #ff952e;
+  margin-top: 15px;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+  color: white;
+  background-color: #ff952e;
+  border-color: #ff952e;
+  border-radius: 0;
+  border-width: thick;
+  padding: 10px 20px;
+}
+
 .btn-primary {
   border-color: #ff952e;
   text-transform: uppercase;
