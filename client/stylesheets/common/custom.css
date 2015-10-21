@@ -16,7 +16,7 @@ body {
 }
 
 .text-primary {
-  color: #fed136;
+  color: #ff952e;
 }
 
 p {
@@ -37,7 +37,7 @@ a.active {
 }
 
 a {
-  color: #fed136;
+  color: #ff952e;
 }
 
 a:hover,
@@ -71,12 +71,12 @@ h6 {
 }
 
 .btn-primary {
-  border-color: #fed136;
+  border-color: #ff952e;
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 700;
   color: #fff;
-  background-color: #fed136;
+  background-color: #ff952e;
 }
 
 .btn-primary:hover,
@@ -110,25 +110,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  border-color: #fed136;
-  background-color: #fed136;
+  border-color: #ff952e;
+  background-color: #ff952e;
 }
 
 .btn-primary .badge {
-  color: #fed136;
+  color: #ff952e;
   background-color: #fff;
 }
 
 .btn-xl {
   padding: 20px 40px;
-  border-color: #fed136;
+  border-color: #ff952e;
   border-radius: 3px;
   text-transform: uppercase;
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 18px;
   font-weight: 700;
   color: #fff;
-  background-color: #fed136;
+  background-color: #ff952e;
 }
 
 .btn-xl:hover,
@@ -162,13 +162,25 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-  border-color: #fed136;
-  background-color: #fed136;
+  border-color: #ff952e;
+  background-color: #ff952e;
 }
 
 .btn-xl .badge {
-  color: #fed136;
+  color: #ff952e;
   background-color: #fff;
+}
+
+.logo {
+  width: 250px;
+  margin-top: 1px;
+}
+
+@media only screen and (min-width:768px) {
+  .logo {
+    margin-top: -3px;
+    padding: 0;
+  }
 }
 
 .navbar-default {
@@ -178,7 +190,8 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
   font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-  color: #fed136;
+  color: #ff952e;
+  font-weight: 400;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -193,8 +206,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-  border-color: #fed136;
-  background-color: #fed136;
+  border-color: #ff952e;
+  background-color: #ff952e;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -203,7 +216,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #fed136;
+  background-color: #ff952e;
 }
 
 .navbar-default .nav li a {
@@ -211,19 +224,19 @@ fieldset[disabled] .btn-xl.active {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-weight: 400;
   letter-spacing: 1px;
-  color: #fff;
+  color: #656563;
 }
 
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
   outline: 0;
-  color: #fed136;
+  color: #ff952e;
 }
 
 .navbar-default .navbar-nav>.active>a {
   border-radius: 0;
   color: #fff;
-  background-color: #fed136;
+  background-color: #ff952e;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -234,9 +247,9 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
   .navbar-default {
-    padding: 25px 0;
+    padding: 15px 0;
     border: 0;
-    background-color: transparent;
+    background-color: #fff;
     -webkit-transition: padding .3s;
     -moz-transition: padding .3s;
     transition: padding .3s;
@@ -255,7 +268,7 @@ fieldset[disabled] .btn-xl.active {
 
   .navbar-default.navbar-shrink {
     padding: 10px 0;
-    background-color: #222;
+    background-color: #fff;
   }
 
   .navbar-default.navbar-shrink .navbar-brand {
@@ -403,7 +416,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-  background-color: #fed136;
+  background-color: #ff952e;
 }
 
 .btn:focus,
@@ -415,12 +428,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
   text-shadow: none;
-  background: #fed136;
+  background: #ff952e;
 }
 
 ::selection {
   text-shadow: none;
-  background: #fed136;
+  background: #ff952e;
 }
 
 img::selection {
@@ -432,5 +445,5 @@ img::-moz-selection {
 }
 
 body {
-  webkit-tap-highlight-color: #fed136;
+  webkit-tap-highlight-color: #ff952e;
 }
