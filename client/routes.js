@@ -2,8 +2,9 @@ Router.configure({
 	layoutTemplate: 'layout'
 });
 
-Router.route('/', function () {
-	this.render('index');
+Router.route('/', {
+	name: 'index',
+	template: 'index'
 });
 
 Router.route('/about', function () {
