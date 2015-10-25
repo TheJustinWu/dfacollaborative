@@ -72,3 +72,23 @@
   height: 400px;
   margin-bottom: 20px;
 }
+
+h1.hubs-content {
+  font-weight: 700;
+  text-align: left;
+  font-size: 18px;
+  color: #656563;
+}
+
+h3.hubs-content {
+  font-weight: 400;
+  text-align: left;
+  font-size: 14px;
+  color: #656563;
+  line-height: 2;
+}
+
+h4.hubs-city {
+  text-transform: uppercase;
+  color: #656563;
+}
