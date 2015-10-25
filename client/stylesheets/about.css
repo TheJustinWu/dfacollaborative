@@ -1,0 +1,20 @@
+#about-header {
+  background-image: url(/img/about/about-header.JPG);
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+#about-intro {
+  text-align:center;
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 40px
+}
+
+.about-content {
+  font-weight: 400;
+  text-align: justify;
+  font-size: 16px;
+  color: #656563;
+  line-height: 2;
+}
