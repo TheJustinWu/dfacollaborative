@@ -73,14 +73,14 @@
   margin-bottom: 20px;
 }
 
-h1.hubs-content {
+h1.hubs-content, h1.contact-content {
   font-weight: 700;
   text-align: left;
   font-size: 18px;
   color: #656563;
 }
 
-h3.hubs-content {
+h3.hubs-content, h3.contact-content {
   font-weight: 400;
   text-align: left;
   font-size: 14px;
